@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(214, 226, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container{
+  text-align:center;
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+background-color: white;
+aspect-ratio: 2/3;
+max-height: 500px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0);
+}
+
+.qr-code {
+  width: 100%;
+  border-radius: 15px;
+}
